@@ -22,7 +22,7 @@ namespace SmsAndroidVerification
             
 
             // Initialize Twilio client. Only needs to be done once as the library stores it internally.
-            TwilioClient.Init(settings.TWILIO_ACCOUNT_SID, settings.TWILIO_API_SECRET);
+            TwilioClient.Init(settings.TWILIO_API_KEY, settings.TWILIO_API_SECRET, settings.TWILIO_ACCOUNT_SID);
         }
 
         public string GenerateVerificationCode()
