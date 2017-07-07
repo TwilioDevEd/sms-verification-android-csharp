@@ -49,7 +49,7 @@ namespace SmsAndroidVerificationTest
 
             var request = new GenericRequest()
             {
-                clientSecret = appSettings.CLIENT_SECRET,
+                client_secret = appSettings.CLIENT_SECRET,
                 phone = testPhone
             };
             var result = (Dictionary<string, string>)controller.RequestVerificationCode(request).Value;
