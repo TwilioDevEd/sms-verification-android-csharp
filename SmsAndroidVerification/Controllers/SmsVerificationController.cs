@@ -24,7 +24,7 @@ namespace SmsAndroidVerification.Controllers
         [HttpPost("/api/request")]
         public ObjectResult RequestVerificationCode([FromBody] GenericRequest request)
         {
-            string clientSecret = request.clientSecret;
+            string clientSecret = request.client_secret;
             string phone = request.phone;
 
             if (_appSettings.CLIENT_SECRET != clientSecret)
@@ -125,7 +125,7 @@ namespace SmsAndroidVerification.Controllers
 
     public class GenericRequest
     {
-        public string clientSecret { get; set; }
+        public string client_secret { get; set; }
         public string phone { get; set; }
     }
 }
