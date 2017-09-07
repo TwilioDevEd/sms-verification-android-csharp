@@ -62,7 +62,7 @@ cd SmsAndroidVerification
 dotnet run
 ```
 
-Your application should now be running at [http://localhost:3000/](http://localhost:3000/).
+Your application should now be running at [http://localhost:5000/](http://localhost:5000/).
 
 Check your config values, and then make sure everything looks good.
 
@@ -74,7 +74,7 @@ using a tool like [ngrok](https://ngrok.com/) to send HTTP/HTTPS traffic to a se
 You can also deploy this application to a server, or to a cloud provider such as Google App Engine.
 
 ```bash
-ngrok http 3000
+ngrok http 5000
 ```
 
 ## Setting the server for the Android application
