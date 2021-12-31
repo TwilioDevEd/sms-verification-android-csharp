@@ -2,15 +2,19 @@
   <img src="https://static0.twilio.com/marketing/bundles/marketing/img/logos/wordmark-red.svg" alt="Twilio" width="250" />
 </a>
 
-# SMS Verification for Android - Server for ASP.NET C#
-[![Build Status](https://travis-ci.org/TwilioDevEd/sms-verification-android-csharp.svg?branch=master)](https://travis-ci.org/TwilioDevEd/sms-verification-android-csharp)
+# Archived - SMS Verification for Android for C Sharp
+
+Please visit the [App Verification with SMS](https://www.twilio.com/docs/sms/app-verification) page on the Twilio Docs to learn more about how to use App Verification for Android with Twilio SMS.
+
+## Description
 
 This sample project demonstrates how to use Twilio's SMS Messaging APIs
 to verify Android application user's phone numbers. This application supports the SMS Verifier APIs
-from Google Play Services TODO: Link
+from Google Play Services 
 
 You'll also need to have a sample Android application that you configure to use these URLs to verify phone
-numbers. You can download that application from Google here TODO: Link
+numbers. You can download that application from Google here 
+
 ## Setup .NET Core SDK (If you don't have Visual Studio 2015/2017)
 
 1. Install [.NET Core](https://www.microsoft.com/net/core).
